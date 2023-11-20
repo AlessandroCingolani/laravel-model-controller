@@ -1,8 +1,11 @@
 @extends('layouts.main')
 
+@section('title')
+    Movie details
+@endsection
+
 @section('content')
-    <h1 class="text-center my-3">Movie detail</h1>
-    <div class="card" style="width: 30rem;">
+    <div class="card" style="width: 25rem;">
         <img src="https://www.salonlfc.com/wp-content/uploads/2018/01/image-not-found-scaled.png" class="card-img-top"
             alt="...">
         <div class="card-body">

@@ -1,7 +1,10 @@
 @extends('layouts.main')
 
+@section('title')
+    Movies
+@endsection
+
 @section('content')
-    <h1 class="text-center my-3">Movies</h1>
     <div class="row">
         @foreach ($movies as $movie)
             <div class="col-3 mb-3">
