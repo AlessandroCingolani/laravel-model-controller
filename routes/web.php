@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, "index"]);
+Route::get('/', [PageController::class, "index"])->name("home");
+Route::get('/details/{id}', [PageController::class, "detail"])->name("detail");
