@@ -11,7 +11,10 @@
             <strong>Trama:</strong>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, vero praesentium?
                 Sed, aut? Sint nam quos praesentium, possimus voluptatibus quasi ipsa, repellendus iste recusandae
-                voluptates doloremque perspiciatis velit. Fuga, perspiciatis.</p>
+                voluptates doloremque perspiciatis velit. Fuga, perspiciatis.
+            </p>
+            <p><strong>Anno pubblicazione:</strong> {{ $movie->date }}</p>
+            <p><strong>Voto:</strong> {{ $movie->vote }}</p>
             <a href="{{ route('home') }}" class="btn btn-primary">Return Home</a>
         </div>
     </div>
